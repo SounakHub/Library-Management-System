@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\LIB MAN\Library Management\Library Management\bin\Library Management.dll
+C:\Users\Administrator\Desktop\LIB MAN\Library Management\Library Management\bin\Library Management.pdb
+C:\Users\Administrator\Desktop\LIB MAN\Library Management\Library Management\obj\Debug\Library Management.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LIB MAN\Library Management\Library Management\obj\Debug\Library Management.dll
+C:\Users\Administrator\Desktop\LIB MAN\Library Management\Library Management\obj\Debug\Library Management.pdb
