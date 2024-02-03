@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+
+body {
+    font-family: 'Signika', sans-serif;
+}
+
+nav ul li.active .nav-link,
+.text-theme {
+    color: #0c757a;
+}
+
+.btn-default, .register-area .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    transition: all .5s ease;
+    text-align: center;
+    background: linear-gradient(133.65deg, #6cc17e 2.24%, #098b99);
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Signika', sans-serif;
+}
+
+.btn-default:hover, .register-area .nav-pills .nav-link.active:hover {
+    color: #fff;
+    background: linear-gradient(133.65deg, #098b99 2.24%, #6cc17e);
+}
+
+.banner-area {
+    background-image: linear-gradient(to bottom right, rgb(141, 182, 46), #098b99);
+    ;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-img::before {
+    content: "";
+    position: absolute;
+    top: 2%;
+    left: 2.5%;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(147.92deg, hsla(0, 0%, 100%, .4) 11.41%, hsla(0, 0%, 100%, 0) 90.25%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.shape {
+    height: 80px;
+    position: absolute;
+    z-index: -1;
+}
+
+.shape-1 {
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: off-on 5s linear infinite;
+}
+
+.shape-2 {
+    bottom: 20px;
+    left: 670px;
+    animation: off-on 10s linear infinite;
+}
+
+.shape-3 {
+    bottom: 30px;
+    right: 100px;
+    animation: off-on 15s linear infinite;
+}
+
+.banner-content .search-form .form-control {
+    background: hsla(0, 0%, 100%, .3);
+    -webkit-backdrop-filter: blur(60px);
+    border-radius: 6px;
+    backdrop-filter: blur(60px);
+    border-color: transparent;
+    color: #fff;
+}
+
+.banner-content .search-form button {
+    height: 50px;
+}
+
+.courses-content {
+    text-align: center;
+}
+
+.courses-content h6 {
+    font-size: 17px;
+}
+
+.feature-courses-area .card {
+    border: 0;
+    box-shadow: 0px 1px 7px 3px #00000033;
+}
+
+footer ul li {
+    line-height: 35px;
+}
+
+footer hr {
+    color: #fff;
+}
+.img-fluid{
+    height: 300px;
+    
+}
+.modal-header{
+    background: linear-gradient(133.65deg, #098b99 2.24%, #6cc17e);
+}
+
+
+
+
+/* ======== course css ======== */
+.page-banner-content {
+    text-align: center;
+    color: #fff;
+}
+
+.shape-4 {
+    top: 40px;
+    left: -700px;
+    right: 0;
+    margin: auto;
+    animation: off-on 5s linear infinite;
+}
+
+.shape-5 {
+    bottom: 70px;
+    left: 850px;
+    animation: off-on 10s linear infinite;
+}
+
+.shape-6 {
+    top: -10px;
+    right: 0;
+    animation: off-on 15s linear infinite;
+}
+
+.shape1 {
+    height: 150px;
+    position: absolute;
+    z-index: -1;
+}
+
+.banner-area .search-form .form-control {
+    background: hsla(0, 0%, 100%, .3);
+    -webkit-backdrop-filter: blur(60px);
+    border-radius: 6px;
+    backdrop-filter: blur(60px);
+    border-color: transparent;
+    color: #fff;
+}
+
+
+/* ======== subscribtion css ======== */
+.register-area ul{
+    border-radius: 50px;
+    /* padding: 10px; */
+    box-shadow: 0px 0px 5px 3px #14161916;
+}
+
+.register-area .nav-pills .nav-link{
+    color: black;
+    border-radius: 35px !important;
+    padding: .7em 5em;
+    margin: 10px;
+}
+
+.register-area .nav-pills .nav-link:hover{
+    margin: 0;
+    padding: 1.4rem 5em;
+}
+
+/* ======== contact css ======== */
+.mb-4{
+    font-size: 2rem;
+}
+.button{
+    background: linear-gradient(133.65deg, #098b99 2.24%, #6cc17e);
+    color: #fff;
+    transition: all .5s ease;
+    text-align: center;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Signika', sans-serif;
+}
+.px-2{
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #6cc17e;
+}
+/* ======== buy now css ======== */
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+   
+    font-size: 100px;
+  }
+  
+  .btn{
+    color: #fff;
+    transition: all .5s ease;
+    text-align: center;
+    background: linear-gradient(133.65deg, #6cc17e 2.24%, #098b99);
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Signika', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  .card {
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.356);
+    background: #f0f8ff00;
+}
